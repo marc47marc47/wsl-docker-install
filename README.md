@@ -1,5 +1,23 @@
 在 Windows Subsystem for Linux (WSL) 的 Oracle Linux 上啟用 Docker，需要進行以下步驟：
 
+
+### 快速安裝 ###
+1. 進入wsl之後, sudo 到su, 並執行 install 相關的linux 套件
+```bash
+sudo su -
+sh install-docker.sh
+```
+
+2.啟動docker
+```bash
+sh start-docker.sh
+```
+
+3.測試docker
+```bash
+sh docker-test.sh
+```
+
 ---
 
 ### **步驟 1: 檢查 WSL 版本**
